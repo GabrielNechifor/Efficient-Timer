@@ -1,11 +1,22 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- App theme -->
+    <style name="DefaultTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:actionMenuTextColor">@color/text</item>
+        <item name="android:textColorSecondary">@color/text</item>
+        <item name="android:editTextColor">@color/text</item>
+        <item name="textColorAlertDialogListItem">@color/text</item>
     </style>
 
 </resources>

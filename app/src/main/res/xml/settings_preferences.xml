@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Timer">
+
+        <PreferenceScreen
+            app:title="Timer settings">
+
+            <intent
+                android:targetPackage="com.example.efficienttimer"
+                android:targetClass="com.example.efficienttimer.settings.SettingsTimerActivity"
+                />
+        </PreferenceScreen>
+
+        <!--
+        <SwitchPreferenceCompat
+            app:key="autostart_work"
+            app:title="Auto start work"
+            app:summary="Start the work session without user interaction"/>
+
+        <SwitchPreferenceCompat
+            app:key="autostart_break"
+            app:title="Auto start break"
+            app:summary="Start the break session without user interaction"/>
+            -->
+    </PreferenceCategory>
+
+
+    <!--
+    <PreferenceCategory app:title="Appearance and features">
+        <ListPreference
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:key="theme"
+            app:title="Select theme"
+            app:defaultValue="Dark"/>
+</PreferenceCategory>
+-->
+
+
+</PreferenceScreen>
