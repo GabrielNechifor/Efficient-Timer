@@ -52,6 +52,7 @@ public class CustomCountDownTimer {
         inWorkSession = true;
         current_session = 1;
         current_doing.setText("Work");
+
     }
 
     public static void pause(){
